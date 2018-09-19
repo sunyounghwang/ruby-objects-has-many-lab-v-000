@@ -10,6 +10,8 @@ class Author
     @@posts
   end
 
-  def add_post
+  def add_post(post)
+    posts << post
+    post.author = self
   end
 end

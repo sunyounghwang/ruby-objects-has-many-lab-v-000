@@ -7,5 +7,6 @@ class Author
   end
 
   def posts
+    @@posts
   end
 end

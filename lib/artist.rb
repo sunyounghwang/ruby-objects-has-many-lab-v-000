@@ -12,7 +12,6 @@ class Artist
     @@songs
   end
 
-
   def self.song_count
     @@songs.size
   end
@@ -27,5 +26,4 @@ class Artist
     song.artist = self
     songs << song
   end
-
 end

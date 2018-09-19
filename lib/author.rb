@@ -6,7 +6,7 @@ class Author
     @name = name
   end
 
-  def self.posts
+  def posts
     @@posts
   end
 
@@ -22,6 +22,6 @@ class Author
   end
 
   def self.post_count
-    posts.count
+    @@posts.count
   end
 end
